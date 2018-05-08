@@ -14,11 +14,10 @@ public class Exam3 {
 	     char d1[]=new char[2];
 	     char k[]=new char[2];
 	     String a=new String();
-
+	     System.out.println("请输入日期：");
 	     do {
 	     e = 0;
-	     System.out.print("请输入日期：");
-	     
+
 	     Scanner s = new Scanner(System.in);
 	     a = s.nextLine();
 	     
